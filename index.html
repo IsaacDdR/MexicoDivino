@@ -49,9 +49,13 @@
         <div class="container d-flex h-100 align-items-center">
             <div class="mx-auto text-center logo-image">
                 <h1><img src="assets/img/logo-md.png" class="img-fluid py-5"/></h1>
-                <a class="btn btn-primary js-scroll-trigger" href="https://api.whatsapp.com/send?phone=524427541011&text=%C2%A1Hola%20M%C3%A9xico%20Divino%20%F0%9F%87%B2%F0%9F%87%BD%F0%9F%8D%B7!%20Me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20su%20suscripci%C3%B3n%20y/o%20cajas%20personalizadas.">Contáctanos</a>
-                <h2 class="text-white-50 mx-auto mt-2 mb-5 pt-5">Descubre México a través experiencia única y a la puerta de tu hogar.</h2>
-            </div>
+                <a class="btn btn-primary js-scroll-trigger" href="https://api.whatsapp.com/send?phone=524427541011&text=%C2%A1Hola%20M%C3%A9xico%20Divino%20%F0%9F%87%B2%F0%9F%87%BD%F0%9F%8D%B7!%20Me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20su%20suscripci%C3%B3n%20y/o%20kits%20personalizados.">Contáctanos</a>
+                <h2 class="text-white mx-auto mt-2 mb-5 pt-5">Descubre México a través experiencia única y a la puerta de tu hogar.</h2>
+                <br>
+               
+                <div class="bouncing" onclick="focusMethod()">
+                    <img class="w-25" src="assets/img/down-arrow.png"/>
+                </div>
         </div>
     </header>
     <body id="page-top">
@@ -92,6 +96,7 @@
                 <img class="img-fluid" src="assets/img/agave.jpg" alt="" />
             </div>
         </section>
+      
         <!-- Projects-->
         <section class="projects-section bg-light" id="projects">
         <div class="container">
@@ -119,22 +124,7 @@
             </div>
 
         <div class="container " >
-        <div class="card-deck mb-3 text-center">
-            <div class="card mb-4 shadow-sm">
-            <div class="card-header">
-                <h4 class="my-0 font-weight-normal">Suscripción</h4>
-            </div>
-            <div class="card-body">
-                <h1 class="card-title pricing-card-title">$1499</h1><!--<small class="text-muted">/mes</small>-->
-                <p>IVA Incluido</p>
-                <ul class="list-unstyled mt-3 mb-4">
-                <li>- Recibe una de nuestras cajas cada mes</li>
-                <li>- Cancela cuando quieras</li>
-                <li>- Calidad de primera</li>
-                </ul>
-                <a class="btn btn-lg btn-block btn-primary" href="https://api.whatsapp.com/send?phone=524427541011&text=%C2%A1Hola%20M%C3%A9xico%20Divino%20%F0%9F%8D%B7%F0%9F%87%B2%F0%9F%87%BD!%20Me%20interesa%20adquirir%20su%20paquete%20de%20suscripción.">Suscríbete</a>
-            </div>
-            </div>
+        <div class="card-deck mb-3 text-center">            
             <div class="card mb-4 shadow-sm">
             <div class="card-header">
                 <h4 class="my-0 font-weight-normal">Único</h4>
@@ -143,11 +133,26 @@
                 <h1 class="card-title pricing-card-title">$1699</h1>
                 <p>IVA Incluido</p>
                 <ul class="list-unstyled mt-3 mb-4">
-                <li>- Recibe o regala la caja del mes</li>
+                <li>- Recibe nuestro kit del mes</li>
                 <li>- Personaliza con tu nombre o un mensaje</li>
                 </ul>
                 <a class="btn btn-lg btn-block btn-primary" href="https://api.whatsapp.com/send?phone=524427541011&text=%C2%A1Hola%20M%C3%A9xico%20Divino%20%F0%9F%8D%B7%F0%9F%87%B2%F0%9F%87%BD!%20Me%20interesa%20adquirir%20su%20paquete%20%C3%9Anico.">Compra</a>
             </div>
+            </div>
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Suscripción</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$1499</h1><!--<small class="text-muted">/mes</small>-->
+                    <p>IVA Incluido</p>
+                    <ul class="list-unstyled mt-3 mb-4">
+                    <li>- Un kit mensual</li>
+                    <li>- Acceso al programa de recompensas</li>
+                    <li>- Sommelier en línea</li>
+                    </ul>
+                    <a class="btn btn-lg btn-block btn-primary" href="https://api.whatsapp.com/send?phone=524427541011&text=%C2%A1Hola%20M%C3%A9xico%20Divino%20%F0%9F%8D%B7%F0%9F%87%B2%F0%9F%87%BD!%20Me%20interesa%20adquirir%20su%20paquete%20de%20suscripción.">Suscríbete</a>
+                </div>
             </div>
             <div class="card mb-4 shadow-sm">
             <div class="card-header">
@@ -156,12 +161,11 @@
             <div class="card-body">
                 <h1 class="card-title pricing-card-title">Cotiza</h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                <li>- Pedidos personalizados</li>
-                <li>- Contacto directo</li>
-                <li>- Sorpresa especial</li>
-                <li>- Miembro distinguido</li>
+                <li>- Regalos empresariales</li>
+                <li>- Venta a restaurantes y bares</li>
+                <li>- Cotizaciones para grupos y eventos</li>
                 </ul>
-                <a class="btn btn-lg btn-block btn-primary" href="https://api.whatsapp.com/send?phone=524427541011&text=%C2%A1Hola%20M%C3%A9xico%20Divino%20%F0%9F%87%B2%F0%9F%87%BD%F0%9F%8D%B7!%20Me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20su%20suscripci%C3%B3n%20y/o%20cajas%20personalizadas.">Contáctanos</a>
+                <a class="btn btn-lg btn-block btn-primary" href="https://api.whatsapp.com/send?phone=524427541011&text=%C2%A1Hola%20M%C3%A9xico%20Divino%20%F0%9F%87%B2%F0%9F%87%BD%F0%9F%8D%B7!%20Me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20su%20suscripci%C3%B3n%20y/o%20kits%20personalizados.">Contáctanos</a>
             </div>
             </div>
         </div>
@@ -209,7 +213,7 @@
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
                         <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
                         <h2 class="text-white mb-5">¡Conócenos!</h2>
-                            <a class="btn btn-primary mx-auto" href="https://api.whatsapp.com/send?phone=524427541011&text=%C2%A1Hola%20M%C3%A9xico%20Divino%20%F0%9F%87%B2%F0%9F%87%BD%F0%9F%8D%B7!%20Me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20su%20suscripci%C3%B3n%20y/o%20cajas%20personalizadas.">Contáctanos</a>
+                            <a class="btn btn-primary mx-auto" href="https://api.whatsapp.com/send?phone=524427541011&text=%C2%A1Hola%20M%C3%A9xico%20Divino%20%F0%9F%87%B2%F0%9F%87%BD%F0%9F%8D%B7!%20Me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20su%20suscripci%C3%B3n%20y/o%20kits%20personalizdos.">Contáctanos</a>
                     </div>
                 </div>
             </div>
@@ -241,7 +245,7 @@
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
-                                <a href="https://api.whatsapp.com/send?phone=524427541011&text=%C2%A1Hola%20M%C3%A9xico%20Divino%20%F0%9F%87%B2%F0%9F%87%BD%F0%9F%8D%B7!%20Me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20su%20suscripci%C3%B3n%20y/o%20cajas%20personalizadas.">
+                                <a href="https://api.whatsapp.com/send?phone=524427541011&text=%C2%A1Hola%20M%C3%A9xico%20Divino%20%F0%9F%87%B2%F0%9F%87%BD%F0%9F%8D%B7!%20Me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20su%20suscripci%C3%B3n%20y/o%20kits%20personalizados.">
                                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Whatsapp</h4>
                                 <hr class="my-4" />
@@ -268,7 +272,7 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
-<a href="https://api.whatsapp.com/send?phone=524427541011&text=%C2%A1Hola%20M%C3%A9xico%20Divino%20%F0%9F%87%B2%F0%9F%87%BD%F0%9F%8D%B7!%20Me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20su%20suscripci%C3%B3n%20y/o%20cajas%20personalizadas." class="float" target="_blank">
+<a href="https://api.whatsapp.com/send?phone=524427541011&text=%C2%A1Hola%20M%C3%A9xico%20Divino%20%F0%9F%87%B2%F0%9F%87%BD%F0%9F%8D%B7!%20Me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20su%20suscripci%C3%B3n%20y/o%20kits%20personalizados." class="float" target="_blank">
 <i class="fab fa-whatsapp my-float"></i>
 </a>
 </html>
